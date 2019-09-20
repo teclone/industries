@@ -1,0 +1,19 @@
+language: node_js
+cache: yarn
+notifications:
+  email: false
+node_js:
+  - '10'
+  - '8'
+script:
+  - yarn test
+jobs:
+  include:
+    - stage: release
+      node_js: '10'
+      script:
+        - yarn test
+        - yarn build
+      after_success:
+        - yarn report-coverage
+        - yarn semantic-release

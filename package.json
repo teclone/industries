@@ -1,0 +1,53 @@
+{
+  "name": "industries",
+  "version": "0.0.0-development",
+  "description": "Exports list of industry categories, reusable for web project implementation",
+  "main": "lib/index",
+  "typings": "lib/typings/index",
+  "author": "Harrison Ifeanyichukwu <harrisonifeanyichukwu@gmail.com> (https://github.com/harrison-ifeanyichukwu)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harrison-ifeanyichukwu/industries.git"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "test": "BABEL_ENV=test jest",
+    "watch-test": "BABEL_ENV=test jest --watch",
+    "build": "rimraf lib && tsc && BABEL_ENV=build rollup --config",
+    "report-coverage": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/node": "7.4.5",
+    "@babel/plugin-proposal-class-properties": "7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "7.4.4",
+    "@babel/preset-env": "7.4.5",
+    "@babel/preset-typescript": "7.3.3",
+    "@types/jest": "24.0.11",
+    "@typescript-eslint/eslint-plugin": "1.6.0",
+    "@typescript-eslint/parser": "1.6.0",
+    "babel-jest": "24.3.1",
+    "commitizen": "3.1.1",
+    "cz-conventional-changelog": "2.1.0",
+    "jest": "24.8.0",
+    "nodemon": "1.19.1",
+    "rimraf": "2.6.2",
+    "rollup": "1.15.6",
+    "rollup-all": "1.6.16",
+    "rollup-plugin-babel": "4.3.2",
+    "rollup-plugin-commonjs": "10.0.0",
+    "rollup-plugin-node-resolve": "5.0.3",
+    "rollup-plugin-uglify": "6.0.2",
+    "semantic-release-cli": "5.2.1",
+    "typescript": "3.5.2",
+    "semantic-release": "^15.13.24"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "dependencies": {}
+}
