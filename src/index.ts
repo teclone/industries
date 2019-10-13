@@ -1,745 +1,897 @@
+export type IndustryName =
+  | 'Accounting'
+  | 'Airlines/Aviation'
+  | 'Alternative Dispute Resolution'
+  | 'Alternative Medicine'
+  | 'Animation'
+  | 'Apparel & Fashion'
+  | 'Architecture & Planning'
+  | 'Arts and Crafts'
+  | 'Automotive'
+  | 'Aviation and Aerospace'
+  | 'Banking'
+  | 'Biotechnology'
+  | 'Broadcast Media'
+  | 'Building Materials'
+  | 'Business Supplies and Equipment'
+  | 'Capital Markets'
+  | 'Chemicals'
+  | 'Civic & Social Organization'
+  | 'Civil Engineering'
+  | 'Commercial Real Estate'
+  | 'Computer & Network Security'
+  | 'Computer Games'
+  | 'Computer Hardware'
+  | 'Computer Networking'
+  | 'Computer Software'
+  | 'Construction'
+  | 'Consumer Electronics'
+  | 'Consumer Goods'
+  | 'Consumer Services'
+  | 'Cosmetics'
+  | 'Dairy'
+  | 'Defense & Space'
+  | 'Design'
+  | 'E-learning'
+  | 'Education Management'
+  | 'Electrical/Electronic Manufacturing'
+  | 'Entertainment'
+  | 'Environmental Services'
+  | 'Events Services'
+  | 'Executive Office'
+  | 'Facilities Services'
+  | 'Farming'
+  | 'Financial Services'
+  | 'Fine Art'
+  | 'Fishery'
+  | 'Food & Beverages'
+  | 'Food Production'
+  | 'Fund-Raising'
+  | 'Furniture'
+  | 'Gambling & Casinos'
+  | 'Glass, Ceramics & Concrete'
+  | 'Government Administration'
+  | 'Government Relations'
+  | 'Graphic Design'
+  | 'Health, Wellness and Fitness'
+  | 'Higher Education'
+  | 'Hospital & Health Care'
+  | 'Hospitality'
+  | 'Human Resources'
+  | 'Import and Export'
+  | 'Individual & Family Services'
+  | 'Industrial Automation'
+  | 'Information Services'
+  | 'Information Technology and Services'
+  | 'Insurance'
+  | 'International Affairs'
+  | 'International Trade and Development'
+  | 'Internet'
+  | 'Investment Banking'
+  | 'Investment Management'
+  | 'Judiciary'
+  | 'Law Enforcement'
+  | 'Law Practice'
+  | 'Legal Services'
+  | 'Legislative Office'
+  | 'Leisure, Travel & Tourism'
+  | 'Libraries'
+  | 'Logistics and Supply Chain'
+  | 'Luxury Goods & Jewelry'
+  | 'Machinery'
+  | 'Management Consulting'
+  | 'Maritime'
+  | 'Market Research'
+  | 'Marketing and Advertising'
+  | 'Mechanical or Industrial Engineering'
+  | 'Media Production'
+  | 'Medical Devices'
+  | 'Medical Practice'
+  | 'Mental Health Care'
+  | 'Military'
+  | 'Mining & Metals'
+  | 'Motion Pictures and Film'
+  | 'Museums and Institutions'
+  | 'Music'
+  | 'Nanotechnology'
+  | 'Newspapers'
+  | 'Non-Profit Organization Management'
+  | 'Oil & Energy'
+  | 'Online Media'
+  | 'Outsourcing/Offshoring'
+  | 'Package/Freight Delivery'
+  | 'Packaging and Containers'
+  | 'Paper & Forest Products'
+  | 'Performing Arts'
+  | 'Pharmaceuticals'
+  | 'Philanthropy'
+  | 'Photography'
+  | 'Plastics'
+  | 'Political Organization'
+  | 'Primary/Secondary Education'
+  | 'Printing'
+  | 'Professional Training & Coaching'
+  | 'Program Development'
+  | 'Public Policy'
+  | 'Public Relations and Communications'
+  | 'Public Safety'
+  | 'Publishing'
+  | 'Railroad Manufacture'
+  | 'Ranching'
+  | 'Real Estate'
+  | 'Recreational Facilities and Services'
+  | 'Religious Institutions'
+  | 'Renewables & Environment'
+  | 'Research'
+  | 'Restaurants'
+  | 'Retail'
+  | 'Security and Investigations'
+  | 'Semiconductors'
+  | 'Ship Building'
+  | 'Sporting Goods'
+  | 'Sports'
+  | 'Staffing and Recruiting'
+  | 'Supermarkets'
+  | 'Telecommunications'
+  | 'Textiles'
+  | 'Think Tanks'
+  | 'Tobacco'
+  | 'Translation and Localization'
+  | 'Transportation/Trucking/Railroad'
+  | 'Utilities'
+  | 'Venture Capital & Private Equity'
+  | 'Veterinary'
+  | 'Warehousing'
+  | 'Wholesale'
+  | 'Wine and Spirits'
+  | 'Wireless'
+  | 'Writing and Editing';
+
 export interface Industry {
-  name: string;
+  name: IndustryName;
   id: number;
   linkedinId: number;
 }
+export type Industries = {
+  [p in IndustryName]: Industry;
+};
 
-const industries: Industry[] = [
-  {
-    name: 'Accounting',
+const industries: Industries = {
+  Accounting: {
     id: 1,
     linkedinId: 47,
+    name: 'Accounting',
   },
-  {
-    name: 'Airlines/Aviation',
+  'Airlines/Aviation': {
     id: 2,
     linkedinId: 94,
+    name: 'Airlines/Aviation',
   },
-  {
-    name: 'Alternative Dispute Resolution',
+  'Alternative Dispute Resolution': {
     id: 3,
     linkedinId: 120,
+    name: 'Alternative Dispute Resolution',
   },
-  {
-    name: 'Alternative Medicine',
+  'Alternative Medicine': {
     id: 4,
     linkedinId: 125,
+    name: 'Alternative Medicine',
   },
-  {
-    name: 'Animation',
+  Animation: {
     id: 5,
     linkedinId: 127,
+    name: 'Animation',
   },
-  {
-    name: 'Apparel & Fashion',
+  'Apparel & Fashion': {
     id: 6,
     linkedinId: 19,
+    name: 'Apparel & Fashion',
   },
-  {
-    name: 'Architecture & Planning',
+  'Architecture & Planning': {
     id: 7,
     linkedinId: 50,
+    name: 'Architecture & Planning',
   },
-  {
-    name: 'Arts and Crafts',
+  'Arts and Crafts': {
     id: 8,
     linkedinId: 111,
+    name: 'Arts and Crafts',
   },
-  {
-    name: 'Automotive',
+  Automotive: {
     id: 9,
     linkedinId: 53,
+    name: 'Automotive',
   },
-  {
-    name: 'Aviation and Aerospace',
+  'Aviation and Aerospace': {
     id: 10,
     linkedinId: 52,
+    name: 'Aviation and Aerospace',
   },
-  {
-    name: 'Banking',
+  Banking: {
     id: 11,
     linkedinId: 41,
+    name: 'Banking',
   },
-  {
-    name: 'Biotechnology',
+  Biotechnology: {
     id: 12,
     linkedinId: 12,
+    name: 'Biotechnology',
   },
-  {
-    name: 'Broadcast Media',
+  'Broadcast Media': {
     id: 13,
     linkedinId: 36,
+    name: 'Broadcast Media',
   },
-  {
-    name: 'Building Materials',
+  'Building Materials': {
     id: 14,
     linkedinId: 49,
+    name: 'Building Materials',
   },
-  {
-    name: 'Business Supplies and Equipment',
+  'Business Supplies and Equipment': {
     id: 15,
     linkedinId: 138,
+    name: 'Business Supplies and Equipment',
   },
-  {
-    name: 'Capital Markets',
+  'Capital Markets': {
     id: 16,
     linkedinId: 129,
+    name: 'Capital Markets',
   },
-  {
-    name: 'Chemicals',
+  Chemicals: {
     id: 17,
     linkedinId: 54,
+    name: 'Chemicals',
   },
-  {
-    name: 'Civic & Social Organization',
+  'Civic & Social Organization': {
     id: 18,
     linkedinId: 90,
+    name: 'Civic & Social Organization',
   },
-  {
-    name: 'Civil Engineering',
+  'Civil Engineering': {
     id: 19,
     linkedinId: 51,
+    name: 'Civil Engineering',
   },
-  {
-    name: 'Commercial Real Estate',
+  'Commercial Real Estate': {
     id: 20,
     linkedinId: 128,
+    name: 'Commercial Real Estate',
   },
-  {
-    name: 'Computer & Network Security',
+  'Computer & Network Security': {
     id: 21,
     linkedinId: 118,
+    name: 'Computer & Network Security',
   },
-  {
-    name: 'Computer Games',
+  'Computer Games': {
     id: 22,
     linkedinId: 109,
+    name: 'Computer Games',
   },
-  {
-    name: 'Computer Hardware',
+  'Computer Hardware': {
     id: 23,
     linkedinId: 3,
+    name: 'Computer Hardware',
   },
-  {
-    name: 'Computer Networking',
+  'Computer Networking': {
     id: 24,
     linkedinId: 5,
+    name: 'Computer Networking',
   },
-  {
-    name: 'Computer Software',
+  'Computer Software': {
     id: 25,
     linkedinId: 4,
+    name: 'Computer Software',
   },
-  {
-    name: 'Construction',
+  Construction: {
     id: 26,
     linkedinId: 48,
+    name: 'Construction',
   },
-  {
-    name: 'Consumer Electronics',
+  'Consumer Electronics': {
     id: 27,
     linkedinId: 24,
+    name: 'Consumer Electronics',
   },
-  {
-    name: 'Consumer Goods',
+  'Consumer Goods': {
     id: 28,
     linkedinId: 25,
+    name: 'Consumer Goods',
   },
-  {
-    name: 'Consumer Services',
+  'Consumer Services': {
     id: 29,
     linkedinId: 91,
+    name: 'Consumer Services',
   },
-  {
-    name: 'Cosmetics',
+  Cosmetics: {
     id: 30,
     linkedinId: 18,
+    name: 'Cosmetics',
   },
-  {
-    name: 'Dairy',
+  Dairy: {
     id: 31,
     linkedinId: 65,
+    name: 'Dairy',
   },
-  {
-    name: 'Defense & Space',
+  'Defense & Space': {
     id: 32,
     linkedinId: 1,
+    name: 'Defense & Space',
   },
-  {
-    name: 'Design',
+  Design: {
     id: 33,
     linkedinId: 99,
+    name: 'Design',
   },
-  {
-    name: 'Education Management',
-    id: 34,
-    linkedinId: 69,
-  },
-  {
-    name: 'E-learning',
+  'E-learning': {
     id: 35,
     linkedinId: 132,
+    name: 'E-learning',
   },
-  {
-    name: 'Electrical/Electronic Manufacturing',
+  'Education Management': {
+    id: 34,
+    linkedinId: 69,
+    name: 'Education Management',
+  },
+  'Electrical/Electronic Manufacturing': {
     id: 36,
     linkedinId: 112,
+    name: 'Electrical/Electronic Manufacturing',
   },
-  {
-    name: 'Entertainment',
+  Entertainment: {
     id: 37,
     linkedinId: 28,
+    name: 'Entertainment',
   },
-  {
-    name: 'Environmental Services',
+  'Environmental Services': {
     id: 38,
     linkedinId: 86,
+    name: 'Environmental Services',
   },
-  {
-    name: 'Events Services',
+  'Events Services': {
     id: 39,
     linkedinId: 110,
+    name: 'Events Services',
   },
-  {
-    name: 'Executive Office',
+  'Executive Office': {
     id: 40,
     linkedinId: 76,
+    name: 'Executive Office',
   },
-  {
-    name: 'Facilities Services',
+  'Facilities Services': {
     id: 41,
     linkedinId: 122,
+    name: 'Facilities Services',
   },
-  {
-    name: 'Farming',
+  Farming: {
     id: 42,
     linkedinId: 63,
+    name: 'Farming',
   },
-  {
-    name: 'Financial Services',
+  'Financial Services': {
     id: 43,
     linkedinId: 43,
+    name: 'Financial Services',
   },
-  {
-    name: 'Fine Art',
+  'Fine Art': {
     id: 44,
     linkedinId: 38,
+    name: 'Fine Art',
   },
-  {
-    name: 'Fishery',
+  Fishery: {
     id: 45,
     linkedinId: 66,
+    name: 'Fishery',
   },
-  {
-    name: 'Food & Beverages',
+  'Food & Beverages': {
     id: 46,
     linkedinId: 34,
+    name: 'Food & Beverages',
   },
-  {
-    name: 'Food Production',
+  'Food Production': {
     id: 47,
     linkedinId: 23,
+    name: 'Food Production',
   },
-  {
-    name: 'Fund-Raising',
+  'Fund-Raising': {
     id: 48,
     linkedinId: 101,
+    name: 'Fund-Raising',
   },
-  {
-    name: 'Furniture',
+  Furniture: {
     id: 49,
     linkedinId: 26,
+    name: 'Furniture',
   },
-  {
-    name: 'Gambling & Casinos',
+  'Gambling & Casinos': {
     id: 50,
     linkedinId: 29,
+    name: 'Gambling & Casinos',
   },
-  {
-    name: 'Glass, Ceramics & Concrete',
+  'Glass, Ceramics & Concrete': {
     id: 51,
     linkedinId: 145,
+    name: 'Glass, Ceramics & Concrete',
   },
-  {
-    name: 'Government Administration',
+  'Government Administration': {
     id: 52,
     linkedinId: 75,
+    name: 'Government Administration',
   },
-  {
-    name: 'Government Relations',
+  'Government Relations': {
     id: 53,
     linkedinId: 148,
+    name: 'Government Relations',
   },
-  {
-    name: 'Graphic Design',
+  'Graphic Design': {
     id: 54,
     linkedinId: 140,
+    name: 'Graphic Design',
   },
-  {
-    name: 'Health, Wellness and Fitness',
+  'Health, Wellness and Fitness': {
     id: 55,
     linkedinId: 124,
+    name: 'Health, Wellness and Fitness',
   },
-  {
-    name: 'Higher Education',
+  'Higher Education': {
     id: 56,
     linkedinId: 68,
+    name: 'Higher Education',
   },
-  {
-    name: 'Hospital & Health Care',
+  'Hospital & Health Care': {
     id: 57,
     linkedinId: 14,
+    name: 'Hospital & Health Care',
   },
-  {
-    name: 'Hospitality',
+  Hospitality: {
     id: 58,
     linkedinId: 31,
+    name: 'Hospitality',
   },
-  {
-    name: 'Human Resources',
+  'Human Resources': {
     id: 59,
     linkedinId: 137,
+    name: 'Human Resources',
   },
-  {
-    name: 'Import and Export',
+  'Import and Export': {
     id: 60,
     linkedinId: 134,
+    name: 'Import and Export',
   },
-  {
-    name: 'Individual & Family Services',
+  'Individual & Family Services': {
     id: 61,
     linkedinId: 88,
+    name: 'Individual & Family Services',
   },
-  {
-    name: 'Industrial Automation',
+  'Industrial Automation': {
     id: 62,
     linkedinId: 147,
+    name: 'Industrial Automation',
   },
-  {
-    name: 'Information Services',
+  'Information Services': {
     id: 63,
     linkedinId: 84,
+    name: 'Information Services',
   },
-  {
-    name: 'Information Technology and Services',
+  'Information Technology and Services': {
     id: 64,
     linkedinId: 96,
+    name: 'Information Technology and Services',
   },
-  {
-    name: 'Insurance',
+  Insurance: {
     id: 65,
     linkedinId: 42,
+    name: 'Insurance',
   },
-  {
-    name: 'International Affairs',
+  'International Affairs': {
     id: 66,
     linkedinId: 74,
+    name: 'International Affairs',
   },
-  {
-    name: 'International Trade and Development',
+  'International Trade and Development': {
     id: 67,
     linkedinId: 141,
+    name: 'International Trade and Development',
   },
-  {
-    name: 'Internet',
+  Internet: {
     id: 68,
     linkedinId: 6,
+    name: 'Internet',
   },
-  {
-    name: 'Investment Banking',
+  'Investment Banking': {
     id: 69,
     linkedinId: 45,
+    name: 'Investment Banking',
   },
-  {
-    name: 'Investment Management',
+  'Investment Management': {
     id: 70,
     linkedinId: 46,
+    name: 'Investment Management',
   },
-  {
-    name: 'Judiciary',
+  Judiciary: {
     id: 71,
     linkedinId: 73,
+    name: 'Judiciary',
   },
-  {
-    name: 'Law Enforcement',
+  'Law Enforcement': {
     id: 72,
     linkedinId: 77,
+    name: 'Law Enforcement',
   },
-  {
-    name: 'Law Practice',
+  'Law Practice': {
     id: 73,
     linkedinId: 9,
+    name: 'Law Practice',
   },
-  {
-    name: 'Legal Services',
+  'Legal Services': {
     id: 74,
     linkedinId: 10,
+    name: 'Legal Services',
   },
-  {
-    name: 'Legislative Office',
+  'Legislative Office': {
     id: 75,
     linkedinId: 72,
+    name: 'Legislative Office',
   },
-  {
-    name: 'Leisure, Travel & Tourism',
+  'Leisure, Travel & Tourism': {
     id: 76,
     linkedinId: 30,
+    name: 'Leisure, Travel & Tourism',
   },
-  {
-    name: 'Libraries',
+  Libraries: {
     id: 77,
     linkedinId: 85,
+    name: 'Libraries',
   },
-  {
-    name: 'Logistics and Supply Chain',
+  'Logistics and Supply Chain': {
     id: 78,
     linkedinId: 116,
+    name: 'Logistics and Supply Chain',
   },
-  {
-    name: 'Luxury Goods & Jewelry',
+  'Luxury Goods & Jewelry': {
     id: 79,
     linkedinId: 143,
+    name: 'Luxury Goods & Jewelry',
   },
-  {
-    name: 'Machinery',
+  Machinery: {
     id: 80,
     linkedinId: 55,
+    name: 'Machinery',
   },
-  {
-    name: 'Management Consulting',
+  'Management Consulting': {
     id: 81,
     linkedinId: 11,
+    name: 'Management Consulting',
   },
-  {
-    name: 'Maritime',
+  Maritime: {
     id: 82,
     linkedinId: 95,
+    name: 'Maritime',
   },
-  {
-    name: 'Market Research',
+  'Market Research': {
     id: 83,
     linkedinId: 97,
+    name: 'Market Research',
   },
-  {
-    name: 'Marketing and Advertising',
+  'Marketing and Advertising': {
     id: 84,
     linkedinId: 80,
+    name: 'Marketing and Advertising',
   },
-  {
-    name: 'Mechanical or Industrial Engineering',
+  'Mechanical or Industrial Engineering': {
     id: 85,
     linkedinId: 135,
+    name: 'Mechanical or Industrial Engineering',
   },
-  {
-    name: 'Media Production',
+  'Media Production': {
     id: 86,
     linkedinId: 126,
+    name: 'Media Production',
   },
-  {
-    name: 'Medical Devices',
+  'Medical Devices': {
     id: 87,
     linkedinId: 17,
+    name: 'Medical Devices',
   },
-  {
-    name: 'Medical Practice',
+  'Medical Practice': {
     id: 88,
     linkedinId: 13,
+    name: 'Medical Practice',
   },
-  {
-    name: 'Mental Health Care',
+  'Mental Health Care': {
     id: 89,
     linkedinId: 139,
+    name: 'Mental Health Care',
   },
-  {
-    name: 'Military',
+  Military: {
     id: 90,
     linkedinId: 71,
+    name: 'Military',
   },
-  {
-    name: 'Mining & Metals',
+  'Mining & Metals': {
     id: 91,
     linkedinId: 56,
+    name: 'Mining & Metals',
   },
-  {
-    name: 'Motion Pictures and Film',
+  'Motion Pictures and Film': {
     id: 92,
     linkedinId: 35,
+    name: 'Motion Pictures and Film',
   },
-  {
-    name: 'Museums and Institutions',
+  'Museums and Institutions': {
     id: 93,
     linkedinId: 37,
+    name: 'Museums and Institutions',
   },
-  {
-    name: 'Music',
+  Music: {
     id: 94,
     linkedinId: 115,
+    name: 'Music',
   },
-  {
-    name: 'Nanotechnology',
+  Nanotechnology: {
     id: 95,
     linkedinId: 114,
+    name: 'Nanotechnology',
   },
-  {
-    name: 'Newspapers',
+  Newspapers: {
     id: 96,
     linkedinId: 81,
+    name: 'Newspapers',
   },
-  {
-    name: 'Non-Profit Organization Management',
+  'Non-Profit Organization Management': {
     id: 97,
     linkedinId: 100,
+    name: 'Non-Profit Organization Management',
   },
-  {
-    name: 'Oil & Energy',
+  'Oil & Energy': {
     id: 98,
     linkedinId: 57,
+    name: 'Oil & Energy',
   },
-  {
-    name: 'Online Media',
+  'Online Media': {
     id: 99,
     linkedinId: 113,
+    name: 'Online Media',
   },
-  {
-    name: 'Outsourcing/Offshoring',
+  'Outsourcing/Offshoring': {
     id: 100,
     linkedinId: 123,
+    name: 'Outsourcing/Offshoring',
   },
-  {
-    name: 'Package/Freight Delivery',
+  'Package/Freight Delivery': {
     id: 101,
     linkedinId: 87,
+    name: 'Package/Freight Delivery',
   },
-  {
-    name: 'Packaging and Containers',
+  'Packaging and Containers': {
     id: 102,
     linkedinId: 146,
+    name: 'Packaging and Containers',
   },
-  {
-    name: 'Paper & Forest Products',
+  'Paper & Forest Products': {
     id: 103,
     linkedinId: 61,
+    name: 'Paper & Forest Products',
   },
-  {
-    name: 'Performing Arts',
+  'Performing Arts': {
     id: 104,
     linkedinId: 39,
+    name: 'Performing Arts',
   },
-  {
-    name: 'Pharmaceuticals',
+  Pharmaceuticals: {
     id: 105,
     linkedinId: 15,
+    name: 'Pharmaceuticals',
   },
-  {
-    name: 'Philanthropy',
+  Philanthropy: {
     id: 106,
     linkedinId: 131,
+    name: 'Philanthropy',
   },
-  {
-    name: 'Photography',
+  Photography: {
     id: 107,
     linkedinId: 136,
+    name: 'Photography',
   },
-  {
-    name: 'Plastics',
+  Plastics: {
     id: 108,
     linkedinId: 117,
+    name: 'Plastics',
   },
-  {
-    name: 'Political Organization',
+  'Political Organization': {
     id: 109,
     linkedinId: 107,
+    name: 'Political Organization',
   },
-  {
-    name: 'Primary/Secondary Education',
+  'Primary/Secondary Education': {
     id: 110,
     linkedinId: 67,
+    name: 'Primary/Secondary Education',
   },
-  {
-    name: 'Printing',
+  Printing: {
     id: 111,
     linkedinId: 83,
+    name: 'Printing',
   },
-  {
-    name: 'Professional Training & Coaching',
+  'Professional Training & Coaching': {
     id: 112,
     linkedinId: 105,
+    name: 'Professional Training & Coaching',
   },
-  {
-    name: 'Program Development',
+  'Program Development': {
     id: 113,
     linkedinId: 102,
+    name: 'Program Development',
   },
-  {
-    name: 'Public Policy',
+  'Public Policy': {
     id: 114,
     linkedinId: 79,
+    name: 'Public Policy',
   },
-  {
-    name: 'Public Relations and Communications',
+  'Public Relations and Communications': {
     id: 115,
     linkedinId: 98,
+    name: 'Public Relations and Communications',
   },
-  {
-    name: 'Public Safety',
+  'Public Safety': {
     id: 116,
     linkedinId: 78,
+    name: 'Public Safety',
   },
-  {
-    name: 'Publishing',
+  Publishing: {
     id: 117,
     linkedinId: 82,
+    name: 'Publishing',
   },
-  {
-    name: 'Railroad Manufacture',
+  'Railroad Manufacture': {
     id: 118,
     linkedinId: 62,
+    name: 'Railroad Manufacture',
   },
-  {
-    name: 'Ranching',
+  Ranching: {
     id: 119,
     linkedinId: 64,
+    name: 'Ranching',
   },
-  {
-    name: 'Real Estate',
+  'Real Estate': {
     id: 120,
     linkedinId: 44,
+    name: 'Real Estate',
   },
-  {
-    name: 'Recreational Facilities and Services',
+  'Recreational Facilities and Services': {
     id: 121,
     linkedinId: 40,
+    name: 'Recreational Facilities and Services',
   },
-  {
-    name: 'Religious Institutions',
+  'Religious Institutions': {
     id: 122,
     linkedinId: 89,
+    name: 'Religious Institutions',
   },
-  {
-    name: 'Renewables & Environment',
+  'Renewables & Environment': {
     id: 123,
     linkedinId: 144,
+    name: 'Renewables & Environment',
   },
-  {
-    name: 'Research',
+  Research: {
     id: 124,
     linkedinId: 70,
+    name: 'Research',
   },
-  {
-    name: 'Restaurants',
+  Restaurants: {
     id: 125,
     linkedinId: 32,
+    name: 'Restaurants',
   },
-  {
-    name: 'Retail',
+  Retail: {
     id: 126,
     linkedinId: 27,
+    name: 'Retail',
   },
-  {
-    name: 'Security and Investigations',
+  'Security and Investigations': {
     id: 127,
     linkedinId: 121,
+    name: 'Security and Investigations',
   },
-  {
-    name: 'Semiconductors',
+  Semiconductors: {
     id: 128,
     linkedinId: 7,
+    name: 'Semiconductors',
   },
-  {
-    name: 'Ship Building',
+  'Ship Building': {
     id: 129,
     linkedinId: 58,
+    name: 'Ship Building',
   },
-  {
-    name: 'Sporting Goods',
+  'Sporting Goods': {
     id: 130,
     linkedinId: 20,
+    name: 'Sporting Goods',
   },
-  {
-    name: 'Sports',
+  Sports: {
     id: 131,
     linkedinId: 33,
+    name: 'Sports',
   },
-  {
-    name: 'Staffing and Recruiting',
+  'Staffing and Recruiting': {
     id: 132,
     linkedinId: 104,
+    name: 'Staffing and Recruiting',
   },
-  {
-    name: 'Supermarkets',
+  Supermarkets: {
     id: 133,
     linkedinId: 22,
+    name: 'Supermarkets',
   },
-  {
-    name: 'Telecommunications',
+  Telecommunications: {
     id: 134,
     linkedinId: 8,
+    name: 'Telecommunications',
   },
-  {
-    name: 'Textiles',
+  Textiles: {
     id: 135,
     linkedinId: 60,
+    name: 'Textiles',
   },
-  {
-    name: 'Think Tanks',
+  'Think Tanks': {
     id: 136,
     linkedinId: 130,
+    name: 'Think Tanks',
   },
-  {
-    name: 'Tobacco',
+  Tobacco: {
     id: 137,
     linkedinId: 21,
+    name: 'Tobacco',
   },
-  {
-    name: 'Translation and Localization',
+  'Translation and Localization': {
     id: 138,
     linkedinId: 108,
+    name: 'Translation and Localization',
   },
-  {
-    name: 'Transportation/Trucking/Railroad',
+  'Transportation/Trucking/Railroad': {
     id: 139,
     linkedinId: 92,
+    name: 'Transportation/Trucking/Railroad',
   },
-  {
-    name: 'Utilities',
+  Utilities: {
     id: 140,
     linkedinId: 59,
+    name: 'Utilities',
   },
-  {
-    name: 'Venture Capital & Private Equity',
+  'Venture Capital & Private Equity': {
     id: 141,
     linkedinId: 106,
+    name: 'Venture Capital & Private Equity',
   },
-  {
-    name: 'Veterinary',
+  Veterinary: {
     id: 142,
     linkedinId: 16,
+    name: 'Veterinary',
   },
-  {
-    name: 'Warehousing',
+  Warehousing: {
     id: 143,
     linkedinId: 93,
+    name: 'Warehousing',
   },
-  {
-    name: 'Wholesale',
+  Wholesale: {
     id: 144,
     linkedinId: 133,
+    name: 'Wholesale',
   },
-  {
-    name: 'Wine and Spirits',
+  'Wine and Spirits': {
     id: 145,
     linkedinId: 142,
+    name: 'Wine and Spirits',
   },
-  {
-    name: 'Wireless',
+  Wireless: {
     id: 146,
     linkedinId: 119,
+    name: 'Wireless',
   },
-  {
-    name: 'Writing and Editing',
+  'Writing and Editing': {
     id: 147,
     linkedinId: 103,
+    name: 'Writing and Editing',
   },
-];
+};
 
-export default industries.sort((industry1, industry2) => (industry1.name < industry2.name ? -1 : 1));
+export default industries;
