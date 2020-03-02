@@ -1,5 +1,5 @@
 {
-  "name": "industries",
+  "name": "@teclone/industries",
   "version": "0.0.0-development",
   "description": "Exports list of industry categories, reusable for web project implementation",
   "publishConfig": {
@@ -40,7 +40,7 @@
     "jest": "24.8.0",
     "nodemon": "1.19.1",
     "rimraf": "2.6.2",
-    "semantic-release": "^15.13.24",
+    "semantic-release": "^17.0.4",
     "semantic-release-cli": "5.2.1",
     "typescript": "3.5.2"
   },
