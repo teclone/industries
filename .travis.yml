@@ -4,13 +4,13 @@ notifications:
   email: false
 node_js:
   - '10'
-  - '8'
+  - '12'
 script:
   - yarn test
 jobs:
   include:
     - stage: release
-      node_js: '10'
+      node_js: '12'
       script:
         - yarn test
         - yarn build

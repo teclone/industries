@@ -1,7 +1,7 @@
-import industries from '../src/index';
+import { industries } from '../src/index';
 
 describe('industries', function() {
-  it(`should export an object of industries indexed by the industry name`, function() {
-    expect(industries).toBeInstanceOf(Object);
+  it(`should export an array of industries`, function() {
+    expect(industries.length).toBeGreaterThan(0);
   });
 });
