@@ -21,6 +21,7 @@ describe("industries", function () {
 
   it(`should get industries by locale`, () => {
     for (const loc of supportedLocales) {
+
       const industriesInLoc = getIndustriesByLocale(loc);
       expect(industriesInLoc.length).toEqual(industries.length);
     }

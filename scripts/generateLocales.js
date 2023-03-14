@@ -18,8 +18,8 @@ industriesDb.forEach(({ translations, ...record }) => {
       ...record,
       name: translations[lang],
     });
-    locales.set(lang, loc);
-    langs.add(lang);
+    locales.set(lang.toLowerCase(), loc);
+    langs.add(lang.toLowerCase());
   });
 });
 
@@ -44,11 +44,11 @@ for (const lang of locales.keys()) {
     });
   }
 
-  const filename = path.resolve("src", "locale", `${lang}.json`);
+  const filename = path.resolve("src", "locale", `${lang}.ts`);
   if (fs.existsSync(filename)) {
     fs.unlinkSync(filename);
   }
-  fs.writeFileSync(filename, JSON.stringify(loc), "utf8", function (err) {
+  fs.writeFileSync(filename, `export default ${JSON.stringify(loc)}`, "utf8", function (err) {
     if (err) {
       console.error(err);
     } else {
@@ -57,11 +57,11 @@ for (const lang of locales.keys()) {
   });
 }
 
-const filename = path.resolve("src", "locale", "en.json");
+const filename = path.resolve("src", "locale", "en.ts");
 if (fs.existsSync(filename)) {
   fs.unlinkSync(filename);
 }
-fs.writeFileSync(filename, JSON.stringify(en), "utf8", function (err) {
+fs.writeFileSync(filename, `export default ${JSON.stringify(en)}`, "utf8", function (err) {
   if (err) {
     console.error(err);
   } else {
@@ -69,13 +69,13 @@ fs.writeFileSync(filename, JSON.stringify(en), "utf8", function (err) {
   }
 });
 
-const filenameLangs = path.resolve("src", "langs.json");
+const filenameLangs = path.resolve("src", "langs.ts");
 if (fs.existsSync(filenameLangs)) {
   fs.unlinkSync(filenameLangs);
 }
 fs.writeFileSync(
   filenameLangs,
-  JSON.stringify(Array.from(langs)),
+  `export default ${JSON.stringify(Array.from(langs))}`,
   "utf8",
   function (err) {
     if (err) {

@@ -1,3 +1,5 @@
-export const supportedLocales = require("./langs.json");
+import langs from './langs'
 
-export const DEFAULT_LOCALE = "en";
+export const supportedLocales = langs
+
+export const DEFAULT_LOCALE = 'en'
