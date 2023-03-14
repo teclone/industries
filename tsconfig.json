@@ -6,6 +6,7 @@
     "declaration": true,
     "noImplicitAny": false,
     "downlevelIteration": true,
+    "resolveJsonModule": true,
     "sourceMap": true,
     "noImplicitThis": true,
     "alwaysStrict": true,

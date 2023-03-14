@@ -16,10 +16,11 @@
   },
   "scripts": {
     "commit": "git-cz",
-    "test": "BABEL_ENV=test jest -i --detectOpenHandles --forceExit",
+    "generateLocales": "node ./scripts/generateLocales",
+    "test": "yarn generateLocales && BABEL_ENV=test jest -i --detectOpenHandles --forceExit",
     "watch-test": "BABEL_ENV=test jest --watch -i --detectOpenHandles",
     "typings": "tsc --p ./tsconfig.build.json",
-    "build": "rimraf lib && yarn typings --declarationDir ./build && yarn typings --declarationDir ./build/esm && rollup-all",
+    "build": "yarn generateLocales && rimraf lib && yarn typings --declarationDir ./build && yarn typings --declarationDir ./build/esm && rollup-all",
     "report-coverage": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "semantic-release": "semantic-release"
   },
