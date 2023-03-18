@@ -22,7 +22,7 @@
     "typings": "tsc --p ./tsconfig.build.json",
     "build": "yarn generateLocales && rimraf lib && yarn typings --declarationDir ./build && yarn typings --declarationDir ./build/esm && rollup-all",
     "report-coverage": "jest --coverage --coverageReporters=text-lcov | coveralls",
-    "semantic-release": "semantic-release"
+    "release": "semantic-release"
   },
   "devDependencies": {
     "@babel/core": "7.4.5",
