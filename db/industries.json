@@ -1,0 +1,1097 @@
+[
+  {
+    "id": 1,
+    "linkedinId": 47,
+    "name": "Accounting",
+    "translations": { "es": "Contabilidad", "fr": "Comptabilité" }
+  },
+  {
+    "id": 2,
+    "linkedinId": 94,
+    "name": "Airlines/Aviation",
+    "translations": {
+      "es": "Aerolíneas / Aviación",
+      "fr": "Compagnies aériennes / Aviation"
+    }
+  },
+  {
+    "id": 3,
+    "linkedinId": 120,
+    "name": "Alternative Dispute Resolution",
+    "translations": {
+      "es": "Resolución alternativa de disputas",
+      "fr": "Résolution Alternative des Conflits"
+    }
+  },
+  {
+    "id": 4,
+    "linkedinId": 125,
+    "name": "Alternative Medicine",
+    "translations": {
+      "es": "Medicina alternativa",
+      "fr": "Médecine Alternative"
+    }
+  },
+  {
+    "id": 5,
+    "linkedinId": 127,
+    "name": "Animation",
+    "translations": { "es": "Animación", "fr": "Animation" }
+  },
+  {
+    "id": 6,
+    "linkedinId": 19,
+    "name": "Apparel & Fashion",
+    "translations": { "es": "Ropa y moda", "fr": "Vêtements et Mode" }
+  },
+  {
+    "id": 7,
+    "linkedinId": 50,
+    "name": "Architecture & Planning",
+    "translations": {
+      "es": "Arquitectura y planificación",
+      "fr": "Architecture et Aménagement"
+    }
+  },
+  {
+    "id": 8,
+    "linkedinId": 111,
+    "name": "Arts and Crafts",
+    "translations": { "es": "Artesanías", "fr": "Arts et Artisanat" }
+  },
+  {
+    "id": 9,
+    "linkedinId": 53,
+    "name": "Automotive",
+    "translations": { "es": "Automotriz", "fr": "Automobile" }
+  },
+  {
+    "id": 10,
+    "linkedinId": 52,
+    "name": "Aviation and Aerospace",
+    "translations": {
+      "es": "Aviación y aeroespacial",
+      "fr": "Aviation et Aérospatiale"
+    }
+  },
+  {
+    "id": 11,
+    "linkedinId": 41,
+    "name": "Banking",
+    "translations": { "es": "Banca", "fr": "Banque" }
+  },
+  {
+    "id": 12,
+    "linkedinId": 12,
+    "name": "Biotechnology",
+    "translations": { "es": "Biotecnología", "fr": "Biotechnologie" }
+  },
+  {
+    "id": 13,
+    "linkedinId": 36,
+    "name": "Broadcast Media",
+    "translations": { "es": "Medios de difusión", "fr": "Médias Diffusés" }
+  },
+  {
+    "id": 14,
+    "linkedinId": 49,
+    "name": "Building Materials",
+    "translations": {
+      "es": "Materiales de construcción",
+      "fr": "Matériaux de Construction"
+    }
+  },
+  {
+    "id": 15,
+    "linkedinId": 138,
+    "name": "Business Supplies and Equipment",
+    "translations": {
+      "es": "Suministros de negocios y equipamiento",
+      "fr": "Fournitures et Équipements de Bureau"
+    }
+  },
+  {
+    "id": 16,
+    "linkedinId": 129,
+    "name": "Capital Markets",
+    "translations": {
+      "es": "Mercados de capitales",
+      "fr": "Marchés de Capitaux"
+    }
+  },
+  {
+    "id": 17,
+    "linkedinId": 54,
+    "name": "Chemicals",
+    "translations": { "es": "Productos químicos", "fr": "Produits Chimiques" }
+  },
+  {
+    "id": 18,
+    "linkedinId": 90,
+    "name": "Civic & Social Organization",
+    "translations": {
+      "es": "Organización cívica y social",
+      "fr": "Organisation Civique et Sociale"
+    }
+  },
+  {
+    "id": 19,
+    "linkedinId": 51,
+    "name": "Civil Engineering",
+    "translations": { "es": "Ingeniería civil", "fr": "Ingénierie Civile" }
+  },
+  {
+    "id": 20,
+    "linkedinId": 128,
+    "name": "Commercial Real Estate",
+    "translations": {
+      "es": "Bienes raíces comerciales",
+      "fr": "Immobilier Commercial"
+    }
+  },
+  {
+    "id": 21,
+    "linkedinId": 118,
+    "name": "Computer & Network Security",
+    "translations": {
+      "es": "Seguridad informática y de redes",
+      "fr": "Sécurité Informatique et Réseaux"
+    }
+  },
+  {
+    "id": 22,
+    "linkedinId": 109,
+    "name": "Computer Games",
+    "translations": { "es": "Videojuegos", "fr": "Jeux Informatiques" }
+  },
+  {
+    "id": 23,
+    "linkedinId": 3,
+    "name": "Computer Hardware",
+    "translations": {
+      "es": "Hardware de computadoras",
+      "fr": "Matériel Informatique"
+    }
+  },
+  {
+    "id": 24,
+    "linkedinId": 5,
+    "name": "Computer Networking",
+    "translations": {
+      "es": "Redes de computadoras",
+      "fr": "Réseaux Informatiques"
+    }
+  },
+  {
+    "id": 25,
+    "linkedinId": 4,
+    "name": "Computer Software",
+    "translations": {
+      "es": "Software de computadoras",
+      "fr": "Logiciel Informatique"
+    }
+  },
+  {
+    "id": 26,
+    "linkedinId": 48,
+    "name": "Construction",
+    "translations": { "es": "Construcción", "fr": "Construction" }
+  },
+  {
+    "id": 27,
+    "linkedinId": 24,
+    "name": "Consumer Electronics",
+    "translations": {
+      "es": "Electrónica de consumo",
+      "fr": "Électronique Grand Public"
+    }
+  },
+  {
+    "id": 28,
+    "linkedinId": 25,
+    "name": "Consumer Goods",
+    "translations": { "es": "Bienes de consumo", "fr": "Biens de consommation" }
+  },
+  {
+    "id": 29,
+    "linkedinId": 91,
+    "name": "Consumer Services",
+    "translations": {
+      "es": "Servicios al consumidor",
+      "fr": "Services aux consommateurs"
+    }
+  },
+  {
+    "id": 30,
+    "linkedinId": 18,
+    "name": "Cosmetics",
+    "translations": { "es": "Cosméticos", "fr": "Cosmétiques" }
+  },
+  {
+    "id": 31,
+    "linkedinId": 65,
+    "name": "Dairy",
+    "translations": { "es": "Productos lácteos", "fr": "Produits laitiers" }
+  },
+  {
+    "id": 32,
+    "linkedinId": 1,
+    "name": "Defense & Space",
+    "translations": { "es": "Defensa y espacio", "fr": "Défense et espace" }
+  },
+  {
+    "id": 33,
+    "linkedinId": 99,
+    "name": "Design",
+    "translations": { "es": "Diseño", "fr": "Design" }
+  },
+  {
+    "id": 35,
+    "linkedinId": 132,
+    "name": "E-learning",
+    "translations": { "es": "Educación en línea", "fr": "Formation en ligne" }
+  },
+  {
+    "id": 34,
+    "linkedinId": 69,
+    "name": "Education Management",
+    "translations": {
+      "es": "Gestión educativa",
+      "fr": "Gestion de l'éducation"
+    }
+  },
+  {
+    "id": 36,
+    "linkedinId": 112,
+    "name": "Electrical/Electronic Manufacturing",
+    "translations": {
+      "es": "Fabricación de productos eléctricos/electrónicos",
+      "fr": "Fabrication électrique/électronique"
+    }
+  },
+  {
+    "id": 37,
+    "linkedinId": 28,
+    "name": "Entertainment",
+    "translations": { "es": "Entretenimiento", "fr": "Divertissement" }
+  },
+  {
+    "id": 38,
+    "linkedinId": 86,
+    "name": "Environmental Services",
+    "translations": {
+      "es": "Servicios ambientales",
+      "fr": "Services environnementaux"
+    }
+  },
+  {
+    "id": 39,
+    "linkedinId": 110,
+    "name": "Events Services",
+    "translations": {
+      "es": "Servicios de eventos",
+      "fr": "Services d'événements"
+    }
+  },
+  {
+    "id": 40,
+    "linkedinId": 76,
+    "name": "Executive Office",
+    "translations": { "es": "Oficina ejecutiva", "fr": "Bureau exécutif" }
+  },
+  {
+    "id": 41,
+    "linkedinId": 122,
+    "name": "Facilities Services",
+    "translations": {
+      "es": "Servicios de instalaciones",
+      "fr": "Services aux installations"
+    }
+  },
+  {
+    "id": 42,
+    "linkedinId": 63,
+    "name": "Farming",
+    "translations": { "es": "Agricultura", "fr": "Agriculture" }
+  },
+  {
+    "id": 43,
+    "linkedinId": 43,
+    "name": "Financial Services",
+    "translations": {
+      "es": "Servicios financieros",
+      "fr": "Services financiers"
+    }
+  },
+  {
+    "id": 44,
+    "linkedinId": 38,
+    "name": "Fine Art",
+    "translations": { "es": "Bellas artes", "fr": "Beaux-arts" }
+  },
+  {
+    "id": 45,
+    "linkedinId": 66,
+    "name": "Fishery",
+    "translations": { "es": "Pesca", "fr": "Pêche" }
+  },
+  {
+    "id": 46,
+    "linkedinId": 34,
+    "name": "Food & Beverages",
+    "translations": {
+      "es": "Alimentos y bebidas",
+      "fr": "Aliments et boissons"
+    }
+  },
+  {
+    "id": 47,
+    "linkedinId": 23,
+    "name": "Food Production",
+    "translations": {
+      "es": "Producción de alimentos",
+      "fr": "Production alimentaire"
+    }
+  },
+  {
+    "id": 48,
+    "linkedinId": 101,
+    "name": "Fund-Raising",
+    "translations": { "es": "Recaudación de fondos", "fr": "Collecte de fonds" }
+  },
+  {
+    "id": 49,
+    "linkedinId": 26,
+    "name": "Furniture",
+    "translations": { "es": "Muebles", "fr": "Mobilier" }
+  },
+  {
+    "id": 50,
+    "linkedinId": 29,
+    "name": "Gambling & Casinos",
+    "translations": {
+      "es": "Juegos de azar y casinos",
+      "fr": "Jeux d'argent et casinos"
+    }
+  },
+  {
+    "id": 51,
+    "linkedinId": 145,
+    "name": "Glass, Ceramics & Concrete",
+    "translations": {
+      "es": "Vidrio, Cerámica y Concreto",
+      "fr": "Verre, céramique et béton"
+    }
+  },
+  {
+    "id": 52,
+    "linkedinId": 75,
+    "name": "Government Administration",
+    "translations": {
+      "es": "Administración gubernamental",
+      "fr": "Administration gouvernementale"
+    }
+  },
+  {
+    "id": 53,
+    "linkedinId": 148,
+    "name": "Government Relations",
+    "translations": {
+      "es": "Relaciones gubernamentales",
+      "fr": "Relations gouvernementales"
+    }
+  },
+  {
+    "id": 54,
+    "linkedinId": 140,
+    "name": "Graphic Design",
+    "translations": { "es": "Diseño gráfico", "fr": "Design graphique" }
+  },
+  {
+    "id": 55,
+    "linkedinId": 124,
+    "name": "Health, Wellness and Fitness",
+    "translations": {
+      "es": "Salud, bienestar y fitness",
+      "fr": "Santé, bien-être et forme physique"
+    }
+  },
+  {
+    "id": 56,
+    "linkedinId": 68,
+    "name": "Higher Education",
+    "translations": {
+      "es": "Educación superior",
+      "fr": "Enseignement supérieur"
+    }
+  },
+  {
+    "id": 57,
+    "linkedinId": 14,
+    "name": "Hospital & Health Care",
+    "translations": {
+      "es": "Hospital y atención sanitaria",
+      "fr": "Hôpitaux et santé"
+    }
+  },
+  {
+    "id": 58,
+    "linkedinId": 31,
+    "name": "Hospitality",
+    "translations": { "es": "Hostelería", "fr": "Hôtellerie" }
+  },
+  {
+    "id": 59,
+    "linkedinId": 137,
+    "name": "Human Resources",
+    "translations": { "es": "Recursos humanos", "fr": "Ressources humaines" }
+  },
+  {
+    "id": 60,
+    "linkedinId": 134,
+    "name": "Import and Export",
+    "translations": { "es": "Importación y exportación", "fr": "Import-export" }
+  },
+  {
+    "id": 61,
+    "linkedinId": 88,
+    "name": "Individual & Family Services",
+    "translations": {
+      "es": "Servicios individuales y familiares",
+      "fr": "Services individuels et familiaux"
+    }
+  },
+  {
+    "id": 62,
+    "linkedinId": 147,
+    "name": "Industrial Automation",
+    "translations": {
+      "es": "Automatización industrial",
+      "fr": "Automatisation industrielle"
+    }
+  },
+  {
+    "id": 63,
+    "linkedinId": 84,
+    "name": "Information Services",
+    "translations": {
+      "es": "Servicios de información",
+      "fr": "Services d'information"
+    }
+  },
+  {
+    "id": 64,
+    "linkedinId": 96,
+    "name": "Information Technology and Services",
+    "translations": {
+      "es": "Tecnología de la información y servicios",
+      "fr": "Technologies de l'information et des services"
+    }
+  },
+  {
+    "id": 65,
+    "linkedinId": 42,
+    "name": "Insurance",
+    "translations": { "es": "Seguros", "fr": "Assurance" }
+  },
+  {
+    "id": 66,
+    "linkedinId": 74,
+    "name": "International Affairs",
+    "translations": {
+      "es": "Asuntos internacionales",
+      "fr": "Affaires internationales"
+    }
+  },
+  {
+    "id": 67,
+    "linkedinId": 141,
+    "name": "International Trade and Development",
+    "translations": {
+      "es": "Comercio internacional y desarrollo",
+      "fr": "Commerce international et développement"
+    }
+  },
+  {
+    "id": 68,
+    "linkedinId": 6,
+    "name": "Internet",
+    "translations": { "es": "Internet", "fr": "Internet" }
+  },
+  {
+    "id": 69,
+    "linkedinId": 45,
+    "name": "Investment Banking",
+    "translations": {
+      "es": "Banca de inversión",
+      "fr": "Banque d'investissement"
+    }
+  },
+  {
+    "id": 70,
+    "linkedinId": 46,
+    "name": "Investment Management",
+    "translations": {
+      "es": "Gestión de inversiones",
+      "fr": "Gestion de placements"
+    }
+  },
+  {
+    "id": 71,
+    "linkedinId": 73,
+    "name": "Judiciary",
+    "translations": { "es": "Judicatura", "fr": "Judiciaire" }
+  },
+  {
+    "id": 72,
+    "linkedinId": 77,
+    "name": "Law Enforcement",
+    "translations": { "es": "Aplicación de la ley", "fr": "Forces de l'ordre" }
+  },
+  {
+    "id": 73,
+    "linkedinId": 9,
+    "name": "Law Practice",
+    "translations": { "es": "Práctica legal", "fr": "Exercice du droit" }
+  },
+  {
+    "id": 74,
+    "linkedinId": 10,
+    "name": "Legal Services",
+    "translations": { "es": "Servicios legales", "fr": "Services juridiques" }
+  },
+  {
+    "id": 75,
+    "linkedinId": 72,
+    "name": "Legislative Office",
+    "translations": { "es": "Oficina legislativa", "fr": "Bureau législatif" }
+  },
+  {
+    "id": 76,
+    "linkedinId": 30,
+    "name": "Leisure, Travel & Tourism",
+    "translations": {
+      "es": "Ocio, viajes y turismo",
+      "fr": "Loisirs, Voyages et Tourisme"
+    }
+  },
+  {
+    "id": 77,
+    "linkedinId": 85,
+    "name": "Libraries",
+    "translations": { "es": "Bibliotecas", "fr": "Bibliothèques" }
+  },
+  {
+    "id": 78,
+    "linkedinId": 116,
+    "name": "Logistics and Supply Chain",
+    "translations": {
+      "es": "Logística y Cadena de Suministro",
+      "fr": "Logistique et Chaîne d’Approvisionnement"
+    }
+  },
+  {
+    "id": 79,
+    "linkedinId": 143,
+    "name": "Luxury Goods & Jewelry",
+    "translations": {
+      "es": "Bienes de Lujo y Joyería",
+      "fr": "Produits de Luxe et Bijoux"
+    }
+  },
+  {
+    "id": 80,
+    "linkedinId": 55,
+    "name": "Machinery",
+    "translations": { "es": "Maquinaria", "fr": "Machines" }
+  },
+  {
+    "id": 81,
+    "linkedinId": 11,
+    "name": "Management Consulting",
+    "translations": {
+      "es": "Consultoría de Gestión",
+      "fr": "Conseil en Gestion"
+    }
+  },
+  {
+    "id": 82,
+    "linkedinId": 95,
+    "name": "Maritime",
+    "translations": { "es": "Marítimo", "fr": "Maritime" }
+  },
+  {
+    "id": 83,
+    "linkedinId": 97,
+    "name": "Market Research",
+    "translations": {
+      "es": "Investigación de Mercado",
+      "fr": "Études de marché"
+    }
+  },
+  {
+    "id": 84,
+    "linkedinId": 80,
+    "name": "Marketing and Advertising",
+    "translations": {
+      "es": "Marketing y Publicidad",
+      "fr": "Marketing et Publicité"
+    }
+  },
+  {
+    "id": 85,
+    "linkedinId": 135,
+    "name": "Mechanical or Industrial Engineering",
+    "translations": {
+      "es": "Ingeniería Mecánica o Industrial",
+      "fr": "Ingénierie Mécanique ou Industrielle"
+    }
+  },
+  {
+    "id": 86,
+    "linkedinId": 126,
+    "name": "Media Production",
+    "translations": {
+      "es": "Producción de Medios",
+      "fr": "Production de Médias"
+    }
+  },
+  {
+    "id": 87,
+    "linkedinId": 17,
+    "name": "Medical Devices",
+    "translations": {
+      "es": "Dispositivos Médicos",
+      "fr": "Dispositifs Médicaux"
+    }
+  },
+  {
+    "id": 88,
+    "linkedinId": 13,
+    "name": "Medical Practice",
+    "translations": { "es": "Práctica Médica", "fr": "Pratique Médicale" }
+  },
+  {
+    "id": 89,
+    "linkedinId": 139,
+    "name": "Mental Health Care",
+    "translations": {
+      "es": "Cuidado de la Salud Mental",
+      "fr": "Soins de Santé Mentale"
+    }
+  },
+  {
+    "id": 90,
+    "linkedinId": 71,
+    "name": "Military",
+    "translations": { "es": "Militar", "fr": "Militaire" }
+  },
+  {
+    "id": 91,
+    "linkedinId": 56,
+    "name": "Mining & Metals",
+    "translations": {
+      "es": "Minería y Metales",
+      "fr": "Exploitation minière et Métaux"
+    }
+  },
+  {
+    "id": 92,
+    "linkedinId": 35,
+    "name": "Motion Pictures and Film",
+    "translations": { "es": "Cine y Películas", "fr": "Cinéma et Audiovisuel" }
+  },
+  {
+    "id": 93,
+    "linkedinId": 37,
+    "name": "Museums and Institutions",
+    "translations": {
+      "es": "Museos e Instituciones",
+      "fr": "Musées et Institutions"
+    }
+  },
+  {
+    "id": 94,
+    "linkedinId": 115,
+    "name": "Music",
+    "translations": { "es": "Música", "fr": "Musique" }
+  },
+  {
+    "id": 95,
+    "linkedinId": 114,
+    "name": "Nanotechnology",
+    "translations": { "es": "Nanotecnología", "fr": "Nanotechnologie" }
+  },
+  {
+    "id": 96,
+    "linkedinId": 81,
+    "name": "Newspapers",
+    "translations": { "es": "Periódicos", "fr": "Journaux" }
+  },
+  {
+    "id": 97,
+    "linkedinId": 100,
+    "name": "Non-Profit Organization Management",
+    "translations": {
+      "es": "Gestión de Organizaciones sin Fines de Lucro",
+      "fr": "Gestion d'Organisations à But Non-Lucratif"
+    }
+  },
+  {
+    "id": 98,
+    "linkedinId": 57,
+    "name": "Oil & Energy",
+    "translations": { "es": "Petróleo y Energía", "fr": "Pétrole et Énergie" }
+  },
+  {
+    "id": 99,
+    "linkedinId": 113,
+    "name": "Online Media",
+    "translations": { "es": "Medios en Línea", "fr": "Médias en Ligne" }
+  },
+  {
+    "id": 100,
+    "linkedinId": 123,
+    "name": "Outsourcing/Offshoring",
+    "translations": {
+      "es": "Subcontratación/Deslocalización",
+      "fr": "Externalisation/Délocalisation"
+    }
+  },
+  {
+    "id": 101,
+    "linkedinId": 87,
+    "name": "Package/Freight Delivery",
+    "translations": {
+      "es": "Envío de Paquetes/Flete",
+      "fr": "Livraison de colis/marchandises"
+    }
+  },
+  {
+    "id": 102,
+    "linkedinId": 146,
+    "name": "Packaging and Containers",
+    "translations": {
+      "es": "Envases y Contenedores",
+      "fr": "Emballages et contenants"
+    }
+  },
+  {
+    "id": 103,
+    "linkedinId": 61,
+    "name": "Paper & Forest Products",
+    "translations": {
+      "es": "Papel y Productos Forestales",
+      "fr": "Papier et produits forestiers"
+    }
+  },
+  {
+    "id": 104,
+    "linkedinId": 39,
+    "name": "Performing Arts",
+    "translations": { "es": "Artes Escénicas", "fr": "Arts du spectacle" }
+  },
+  {
+    "id": 105,
+    "linkedinId": 15,
+    "name": "Pharmaceuticals",
+    "translations": { "es": "Productos Farmacéuticos", "fr": "Pharmaceutiques" }
+  },
+  {
+    "id": 106,
+    "linkedinId": 131,
+    "name": "Philanthropy",
+    "translations": { "es": "Filantropía", "fr": "Philanthropie" }
+  },
+  {
+    "id": 107,
+    "linkedinId": 136,
+    "name": "Photography",
+    "translations": { "es": "Fotografía", "fr": "Photographie" }
+  },
+  {
+    "id": 108,
+    "linkedinId": 117,
+    "name": "Plastics",
+    "translations": { "es": "Plásticos", "fr": "Plastiques" }
+  },
+  {
+    "id": 109,
+    "linkedinId": 107,
+    "name": "Political Organization",
+    "translations": {
+      "es": "Organización Política",
+      "fr": "Organisation politique"
+    }
+  },
+  {
+    "id": 110,
+    "linkedinId": 67,
+    "name": "Primary/Secondary Education",
+    "translations": {
+      "es": "Educación Primaria/Secundaria",
+      "fr": "Enseignement primaire/secondaire"
+    }
+  },
+  {
+    "id": 111,
+    "linkedinId": 83,
+    "name": "Printing",
+    "translations": { "es": "Imprenta", "fr": "Impression" }
+  },
+  {
+    "id": 112,
+    "linkedinId": 105,
+    "name": "Professional Training & Coaching",
+    "translations": {
+      "es": "Entrenamiento y Coaching Profesional",
+      "fr": "Formation et coaching professionnels"
+    }
+  },
+  {
+    "id": 113,
+    "linkedinId": 102,
+    "name": "Program Development",
+    "translations": {
+      "es": "Desarrollo de Programas",
+      "fr": "Développement de programmes"
+    }
+  },
+  {
+    "id": 114,
+    "linkedinId": 79,
+    "name": "Public Policy",
+    "translations": { "es": "Política Pública", "fr": "Politique publique" }
+  },
+  {
+    "id": 115,
+    "linkedinId": 98,
+    "name": "Public Relations and Communications",
+    "translations": {
+      "es": "Relaciones Públicas y Comunicaciones",
+      "fr": "Relations publiques et communications"
+    }
+  },
+  {
+    "id": 116,
+    "linkedinId": 78,
+    "name": "Public Safety",
+    "translations": { "es": "Seguridad Pública", "fr": "Sécurité publique" }
+  },
+  {
+    "id": 117,
+    "linkedinId": 82,
+    "name": "Publishing",
+    "translations": { "es": "Publicación", "fr": "Publication" }
+  },
+  {
+    "id": 118,
+    "linkedinId": 62,
+    "name": "Railroad Manufacture",
+    "translations": {
+      "es": "Fabricación de Ferrocarriles",
+      "fr": "Fabrication ferroviaire"
+    }
+  },
+  {
+    "id": 119,
+    "linkedinId": 64,
+    "name": "Ranching",
+    "translations": { "es": "Ganadería", "fr": "Élevage" }
+  },
+  {
+    "id": 120,
+    "linkedinId": 44,
+    "name": "Real Estate",
+    "translations": { "es": "Bienes Raíces", "fr": "Immobilier" }
+  },
+  {
+    "id": 121,
+    "linkedinId": 40,
+    "name": "Recreational Facilities and Services",
+    "translations": {
+      "es": "Instalaciones y Servicios Recreativos",
+      "fr": "Installations et services récréatifs"
+    }
+  },
+  {
+    "id": 122,
+    "linkedinId": 89,
+    "name": "Religious Institutions",
+    "translations": {
+      "es": "Instituciones Religiosas",
+      "fr": "Institutions religieuses"
+    }
+  },
+  {
+    "id": 123,
+    "linkedinId": 144,
+    "name": "Renewables & Environment",
+    "translations": {
+      "es": "Energías Renovables y Medio Ambiente",
+      "fr": "Énergies renouvelables et environnement"
+    }
+  },
+  {
+    "id": 124,
+    "linkedinId": 70,
+    "name": "Research",
+    "translations": { "es": "Investigación", "fr": "Recherche" }
+  },
+  {
+    "id": 125,
+    "linkedinId": 32,
+    "name": "Restaurants",
+    "translations": { "es": "Restaurantes", "fr": "Restaurants" }
+  },
+  {
+    "id": 126,
+    "linkedinId": 27,
+    "name": "Retail",
+    "translations": { "es": "Venta al por menor", "fr": "Vente au détail" }
+  },
+  {
+    "id": 127,
+    "linkedinId": 121,
+    "name": "Security and Investigations",
+    "translations": {
+      "es": "Seguridad e Investigaciones",
+      "fr": "Sécurité et enquêtes"
+    }
+  },
+  {
+    "id": 128,
+    "linkedinId": 7,
+    "name": "Semiconductors",
+    "translations": { "es": "Semiconductores", "fr": "Semi-conducteurs" }
+  },
+  {
+    "id": 129,
+    "linkedinId": 58,
+    "name": "Ship Building",
+    "translations": { "es": "Construcción naval", "fr": "Construction navale" }
+  },
+  {
+    "id": 130,
+    "linkedinId": 20,
+    "name": "Sporting Goods",
+    "translations": { "es": "Artículos deportivos", "fr": "Articles de sport" }
+  },
+  {
+    "id": 131,
+    "linkedinId": 33,
+    "name": "Sports",
+    "translations": { "es": "Deportes", "fr": "Sports" }
+  },
+  {
+    "id": 132,
+    "linkedinId": 104,
+    "name": "Staffing and Recruiting",
+    "translations": {
+      "es": "Contratación y selección de personal",
+      "fr": "Recrutement et placement"
+    }
+  },
+  {
+    "id": 133,
+    "linkedinId": 22,
+    "name": "Supermarkets",
+    "translations": { "es": "Supermercados", "fr": "Supermarchés" }
+  },
+  {
+    "id": 134,
+    "linkedinId": 8,
+    "name": "Telecommunications",
+    "translations": { "es": "Telecomunicaciones", "fr": "Télécommunications" }
+  },
+  {
+    "id": 135,
+    "linkedinId": 60,
+    "name": "Textiles",
+    "translations": { "es": "Textiles", "fr": "Textiles" }
+  },
+  {
+    "id": 136,
+    "linkedinId": 130,
+    "name": "Think Tanks",
+    "translations": { "es": "Think Tanks", "fr": "Think Tanks" }
+  },
+  {
+    "id": 137,
+    "linkedinId": 21,
+    "name": "Tobacco",
+    "translations": { "es": "Tabaco", "fr": "Tabac" }
+  },
+  {
+    "id": 138,
+    "linkedinId": 108,
+    "name": "Translation and Localization",
+    "translations": {
+      "es": "Traducción y localización",
+      "fr": "Traduction et localisation"
+    }
+  },
+  {
+    "id": 139,
+    "linkedinId": 92,
+    "name": "Transportation/Trucking/Railroad",
+    "translations": {
+      "es": "Transporte/Camionaje/Ferrocarril",
+      "fr": "Transport/routier/ferroviaire"
+    }
+  },
+  {
+    "id": 140,
+    "linkedinId": 59,
+    "name": "Utilities",
+    "translations": { "es": "Servicios públicos", "fr": "Services publics" }
+  },
+  {
+    "id": 141,
+    "linkedinId": 106,
+    "name": "Venture Capital & Private Equity",
+    "translations": {
+      "es": "Capital de riesgo e inversión privada",
+      "fr": "Capital-risque et investissement privé"
+    }
+  },
+  {
+    "id": 142,
+    "linkedinId": 16,
+    "name": "Veterinary",
+    "translations": { "es": "Veterinaria", "fr": "Vétérinaire" }
+  },
+  {
+    "id": 143,
+    "linkedinId": 93,
+    "name": "Warehousing",
+    "translations": { "es": "Almacenamiento", "fr": "Entreposage" }
+  },
+  {
+    "id": 144,
+    "linkedinId": 133,
+    "name": "Wholesale",
+    "translations": { "es": "Venta al por mayor", "fr": "Vente en gros" }
+  },
+  {
+    "id": 145,
+    "linkedinId": 142,
+    "name": "Wine and Spirits",
+    "translations": { "es": "Vinos y licores", "fr": "Vins et spiritueux" }
+  },
+  {
+    "id": 146,
+    "linkedinId": 119,
+    "name": "Wireless",
+    "translations": { "es": "Inalámbrico", "fr": "Sans fil" }
+  },
+  {
+    "id": 147,
+    "linkedinId": 103,
+    "name": "Writing and Editing",
+    "translations": {
+      "es": "Escritura y edición",
+      "fr": "Rédaction et édition"
+    }
+  }
+]
