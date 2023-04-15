@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./",
+    "baseUrl": "./src",
     "moduleResolution": "node",
     "target": "esnext",
     "declaration": true,
@@ -16,5 +16,5 @@
     "lib": ["dom", "es5", "es2015.collection", "es2015.iterable"]
   },
   "include": ["src"],
-  "exclude": []
+  "exclude": ["node_modules"]
 }
