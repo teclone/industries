@@ -1,0 +1,737 @@
+[
+  {
+    "id": 1,
+    "linkedinId": 47,
+    "name": "Accounting"
+  },
+  {
+    "id": 2,
+    "linkedinId": 94,
+    "name": "Airlines/Aviation"
+  },
+  {
+    "id": 3,
+    "linkedinId": 120,
+    "name": "Alternative Dispute Resolution"
+  },
+  {
+    "id": 4,
+    "linkedinId": 125,
+    "name": "Alternative Medicine"
+  },
+  {
+    "id": 5,
+    "linkedinId": 127,
+    "name": "Animation"
+  },
+  {
+    "id": 6,
+    "linkedinId": 19,
+    "name": "Apparel & Fashion"
+  },
+  {
+    "id": 7,
+    "linkedinId": 50,
+    "name": "Architecture & Planning"
+  },
+  {
+    "id": 8,
+    "linkedinId": 111,
+    "name": "Arts and Crafts"
+  },
+  {
+    "id": 9,
+    "linkedinId": 53,
+    "name": "Automotive"
+  },
+  {
+    "id": 10,
+    "linkedinId": 52,
+    "name": "Aviation and Aerospace"
+  },
+  {
+    "id": 11,
+    "linkedinId": 41,
+    "name": "Banking"
+  },
+  {
+    "id": 12,
+    "linkedinId": 12,
+    "name": "Biotechnology"
+  },
+  {
+    "id": 13,
+    "linkedinId": 36,
+    "name": "Broadcast Media"
+  },
+  {
+    "id": 14,
+    "linkedinId": 49,
+    "name": "Building Materials"
+  },
+  {
+    "id": 15,
+    "linkedinId": 138,
+    "name": "Business Supplies and Equipment"
+  },
+  {
+    "id": 16,
+    "linkedinId": 129,
+    "name": "Capital Markets"
+  },
+  {
+    "id": 17,
+    "linkedinId": 54,
+    "name": "Chemicals"
+  },
+  {
+    "id": 18,
+    "linkedinId": 90,
+    "name": "Civic & Social Organization"
+  },
+  {
+    "id": 19,
+    "linkedinId": 51,
+    "name": "Civil Engineering"
+  },
+  {
+    "id": 20,
+    "linkedinId": 128,
+    "name": "Commercial Real Estate"
+  },
+  {
+    "id": 21,
+    "linkedinId": 118,
+    "name": "Computer & Network Security"
+  },
+  {
+    "id": 22,
+    "linkedinId": 109,
+    "name": "Computer Games"
+  },
+  {
+    "id": 23,
+    "linkedinId": 3,
+    "name": "Computer Hardware"
+  },
+  {
+    "id": 24,
+    "linkedinId": 5,
+    "name": "Computer Networking"
+  },
+  {
+    "id": 25,
+    "linkedinId": 4,
+    "name": "Computer Software"
+  },
+  {
+    "id": 26,
+    "linkedinId": 48,
+    "name": "Construction"
+  },
+  {
+    "id": 27,
+    "linkedinId": 24,
+    "name": "Consumer Electronics"
+  },
+  {
+    "id": 28,
+    "linkedinId": 25,
+    "name": "Consumer Goods"
+  },
+  {
+    "id": 29,
+    "linkedinId": 91,
+    "name": "Consumer Services"
+  },
+  {
+    "id": 30,
+    "linkedinId": 18,
+    "name": "Cosmetics"
+  },
+  {
+    "id": 31,
+    "linkedinId": 65,
+    "name": "Dairy"
+  },
+  {
+    "id": 32,
+    "linkedinId": 1,
+    "name": "Defense & Space"
+  },
+  {
+    "id": 33,
+    "linkedinId": 99,
+    "name": "Design"
+  },
+  {
+    "id": 35,
+    "linkedinId": 132,
+    "name": "E-learning"
+  },
+  {
+    "id": 34,
+    "linkedinId": 69,
+    "name": "Education Management"
+  },
+  {
+    "id": 36,
+    "linkedinId": 112,
+    "name": "Electrical/Electronic Manufacturing"
+  },
+  {
+    "id": 37,
+    "linkedinId": 28,
+    "name": "Entertainment"
+  },
+  {
+    "id": 38,
+    "linkedinId": 86,
+    "name": "Environmental Services"
+  },
+  {
+    "id": 39,
+    "linkedinId": 110,
+    "name": "Events Services"
+  },
+  {
+    "id": 40,
+    "linkedinId": 76,
+    "name": "Executive Office"
+  },
+  {
+    "id": 41,
+    "linkedinId": 122,
+    "name": "Facilities Services"
+  },
+  {
+    "id": 42,
+    "linkedinId": 63,
+    "name": "Farming"
+  },
+  {
+    "id": 43,
+    "linkedinId": 43,
+    "name": "Financial Services"
+  },
+  {
+    "id": 44,
+    "linkedinId": 38,
+    "name": "Fine Art"
+  },
+  {
+    "id": 45,
+    "linkedinId": 66,
+    "name": "Fishery"
+  },
+  {
+    "id": 46,
+    "linkedinId": 34,
+    "name": "Food & Beverages"
+  },
+  {
+    "id": 47,
+    "linkedinId": 23,
+    "name": "Food Production"
+  },
+  {
+    "id": 48,
+    "linkedinId": 101,
+    "name": "Fund-Raising"
+  },
+  {
+    "id": 49,
+    "linkedinId": 26,
+    "name": "Furniture"
+  },
+  {
+    "id": 50,
+    "linkedinId": 29,
+    "name": "Gambling & Casinos"
+  },
+  {
+    "id": 51,
+    "linkedinId": 145,
+    "name": "Glass, Ceramics & Concrete"
+  },
+  {
+    "id": 52,
+    "linkedinId": 75,
+    "name": "Government Administration"
+  },
+  {
+    "id": 53,
+    "linkedinId": 148,
+    "name": "Government Relations"
+  },
+  {
+    "id": 54,
+    "linkedinId": 140,
+    "name": "Graphic Design"
+  },
+  {
+    "id": 55,
+    "linkedinId": 124,
+    "name": "Health, Wellness and Fitness"
+  },
+  {
+    "id": 56,
+    "linkedinId": 68,
+    "name": "Higher Education"
+  },
+  {
+    "id": 57,
+    "linkedinId": 14,
+    "name": "Hospital & Health Care"
+  },
+  {
+    "id": 58,
+    "linkedinId": 31,
+    "name": "Hospitality"
+  },
+  {
+    "id": 59,
+    "linkedinId": 137,
+    "name": "Human Resources"
+  },
+  {
+    "id": 60,
+    "linkedinId": 134,
+    "name": "Import and Export"
+  },
+  {
+    "id": 61,
+    "linkedinId": 88,
+    "name": "Individual & Family Services"
+  },
+  {
+    "id": 62,
+    "linkedinId": 147,
+    "name": "Industrial Automation"
+  },
+  {
+    "id": 63,
+    "linkedinId": 84,
+    "name": "Information Services"
+  },
+  {
+    "id": 64,
+    "linkedinId": 96,
+    "name": "Information Technology and Services"
+  },
+  {
+    "id": 65,
+    "linkedinId": 42,
+    "name": "Insurance"
+  },
+  {
+    "id": 66,
+    "linkedinId": 74,
+    "name": "International Affairs"
+  },
+  {
+    "id": 67,
+    "linkedinId": 141,
+    "name": "International Trade and Development"
+  },
+  {
+    "id": 68,
+    "linkedinId": 6,
+    "name": "Internet"
+  },
+  {
+    "id": 69,
+    "linkedinId": 45,
+    "name": "Investment Banking"
+  },
+  {
+    "id": 70,
+    "linkedinId": 46,
+    "name": "Investment Management"
+  },
+  {
+    "id": 71,
+    "linkedinId": 73,
+    "name": "Judiciary"
+  },
+  {
+    "id": 72,
+    "linkedinId": 77,
+    "name": "Law Enforcement"
+  },
+  {
+    "id": 73,
+    "linkedinId": 9,
+    "name": "Law Practice"
+  },
+  {
+    "id": 74,
+    "linkedinId": 10,
+    "name": "Legal Services"
+  },
+  {
+    "id": 75,
+    "linkedinId": 72,
+    "name": "Legislative Office"
+  },
+  {
+    "id": 76,
+    "linkedinId": 30,
+    "name": "Leisure, Travel & Tourism"
+  },
+  {
+    "id": 77,
+    "linkedinId": 85,
+    "name": "Libraries"
+  },
+  {
+    "id": 78,
+    "linkedinId": 116,
+    "name": "Logistics and Supply Chain"
+  },
+  {
+    "id": 79,
+    "linkedinId": 143,
+    "name": "Luxury Goods & Jewelry"
+  },
+  {
+    "id": 80,
+    "linkedinId": 55,
+    "name": "Machinery"
+  },
+  {
+    "id": 81,
+    "linkedinId": 11,
+    "name": "Management Consulting"
+  },
+  {
+    "id": 82,
+    "linkedinId": 95,
+    "name": "Maritime"
+  },
+  {
+    "id": 83,
+    "linkedinId": 97,
+    "name": "Market Research"
+  },
+  {
+    "id": 84,
+    "linkedinId": 80,
+    "name": "Marketing and Advertising"
+  },
+  {
+    "id": 85,
+    "linkedinId": 135,
+    "name": "Mechanical or Industrial Engineering"
+  },
+  {
+    "id": 86,
+    "linkedinId": 126,
+    "name": "Media Production"
+  },
+  {
+    "id": 87,
+    "linkedinId": 17,
+    "name": "Medical Devices"
+  },
+  {
+    "id": 88,
+    "linkedinId": 13,
+    "name": "Medical Practice"
+  },
+  {
+    "id": 89,
+    "linkedinId": 139,
+    "name": "Mental Health Care"
+  },
+  {
+    "id": 90,
+    "linkedinId": 71,
+    "name": "Military"
+  },
+  {
+    "id": 91,
+    "linkedinId": 56,
+    "name": "Mining & Metals"
+  },
+  {
+    "id": 92,
+    "linkedinId": 35,
+    "name": "Motion Pictures and Film"
+  },
+  {
+    "id": 93,
+    "linkedinId": 37,
+    "name": "Museums and Institutions"
+  },
+  {
+    "id": 94,
+    "linkedinId": 115,
+    "name": "Music"
+  },
+  {
+    "id": 95,
+    "linkedinId": 114,
+    "name": "Nanotechnology"
+  },
+  {
+    "id": 96,
+    "linkedinId": 81,
+    "name": "Newspapers"
+  },
+  {
+    "id": 97,
+    "linkedinId": 100,
+    "name": "Non-Profit Organization Management"
+  },
+  {
+    "id": 98,
+    "linkedinId": 57,
+    "name": "Oil & Energy"
+  },
+  {
+    "id": 99,
+    "linkedinId": 113,
+    "name": "Online Media"
+  },
+  {
+    "id": 100,
+    "linkedinId": 123,
+    "name": "Outsourcing/Offshoring"
+  },
+  {
+    "id": 101,
+    "linkedinId": 87,
+    "name": "Package/Freight Delivery"
+  },
+  {
+    "id": 102,
+    "linkedinId": 146,
+    "name": "Packaging and Containers"
+  },
+  {
+    "id": 103,
+    "linkedinId": 61,
+    "name": "Paper & Forest Products"
+  },
+  {
+    "id": 104,
+    "linkedinId": 39,
+    "name": "Performing Arts"
+  },
+  {
+    "id": 105,
+    "linkedinId": 15,
+    "name": "Pharmaceuticals"
+  },
+  {
+    "id": 106,
+    "linkedinId": 131,
+    "name": "Philanthropy"
+  },
+  {
+    "id": 107,
+    "linkedinId": 136,
+    "name": "Photography"
+  },
+  {
+    "id": 108,
+    "linkedinId": 117,
+    "name": "Plastics"
+  },
+  {
+    "id": 109,
+    "linkedinId": 107,
+    "name": "Political Organization"
+  },
+  {
+    "id": 110,
+    "linkedinId": 67,
+    "name": "Primary/Secondary Education"
+  },
+  {
+    "id": 111,
+    "linkedinId": 83,
+    "name": "Printing"
+  },
+  {
+    "id": 112,
+    "linkedinId": 105,
+    "name": "Professional Training & Coaching"
+  },
+  {
+    "id": 113,
+    "linkedinId": 102,
+    "name": "Program Development"
+  },
+  {
+    "id": 114,
+    "linkedinId": 79,
+    "name": "Public Policy"
+  },
+  {
+    "id": 115,
+    "linkedinId": 98,
+    "name": "Public Relations and Communications"
+  },
+  {
+    "id": 116,
+    "linkedinId": 78,
+    "name": "Public Safety"
+  },
+  {
+    "id": 117,
+    "linkedinId": 82,
+    "name": "Publishing"
+  },
+  {
+    "id": 118,
+    "linkedinId": 62,
+    "name": "Railroad Manufacture"
+  },
+  {
+    "id": 119,
+    "linkedinId": 64,
+    "name": "Ranching"
+  },
+  {
+    "id": 120,
+    "linkedinId": 44,
+    "name": "Real Estate"
+  },
+  {
+    "id": 121,
+    "linkedinId": 40,
+    "name": "Recreational Facilities and Services"
+  },
+  {
+    "id": 122,
+    "linkedinId": 89,
+    "name": "Religious Institutions"
+  },
+  {
+    "id": 123,
+    "linkedinId": 144,
+    "name": "Renewables & Environment"
+  },
+  {
+    "id": 124,
+    "linkedinId": 70,
+    "name": "Research"
+  },
+  {
+    "id": 125,
+    "linkedinId": 32,
+    "name": "Restaurants"
+  },
+  {
+    "id": 126,
+    "linkedinId": 27,
+    "name": "Retail"
+  },
+  {
+    "id": 127,
+    "linkedinId": 121,
+    "name": "Security and Investigations"
+  },
+  {
+    "id": 128,
+    "linkedinId": 7,
+    "name": "Semiconductors"
+  },
+  {
+    "id": 129,
+    "linkedinId": 58,
+    "name": "Ship Building"
+  },
+  {
+    "id": 130,
+    "linkedinId": 20,
+    "name": "Sporting Goods"
+  },
+  {
+    "id": 131,
+    "linkedinId": 33,
+    "name": "Sports"
+  },
+  {
+    "id": 132,
+    "linkedinId": 104,
+    "name": "Staffing and Recruiting"
+  },
+  {
+    "id": 133,
+    "linkedinId": 22,
+    "name": "Supermarkets"
+  },
+  {
+    "id": 134,
+    "linkedinId": 8,
+    "name": "Telecommunications"
+  },
+  {
+    "id": 135,
+    "linkedinId": 60,
+    "name": "Textiles"
+  },
+  {
+    "id": 136,
+    "linkedinId": 130,
+    "name": "Think Tanks"
+  },
+  {
+    "id": 137,
+    "linkedinId": 21,
+    "name": "Tobacco"
+  },
+  {
+    "id": 138,
+    "linkedinId": 108,
+    "name": "Translation and Localization"
+  },
+  {
+    "id": 139,
+    "linkedinId": 92,
+    "name": "Transportation/Trucking/Railroad"
+  },
+  {
+    "id": 140,
+    "linkedinId": 59,
+    "name": "Utilities"
+  },
+  {
+    "id": 141,
+    "linkedinId": 106,
+    "name": "Venture Capital & Private Equity"
+  },
+  {
+    "id": 142,
+    "linkedinId": 16,
+    "name": "Veterinary"
+  },
+  {
+    "id": 143,
+    "linkedinId": 93,
+    "name": "Warehousing"
+  },
+  {
+    "id": 144,
+    "linkedinId": 133,
+    "name": "Wholesale"
+  },
+  {
+    "id": 145,
+    "linkedinId": 142,
+    "name": "Wine and Spirits"
+  },
+  {
+    "id": 146,
+    "linkedinId": 119,
+    "name": "Wireless"
+  },
+  {
+    "id": 147,
+    "linkedinId": 103,
+    "name": "Writing and Editing"
+  }
+]

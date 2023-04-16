@@ -1,15 +1,18 @@
-import en from './locale/en';
+import { Industry } from 'types';
+import { supportedLocales } from './constants';
 
-import { supportedLocales } from './supportedLocales';
+import enIndustries from './locales/en.json';
 
-export *  from './supportedLocales';
+export { enIndustries as industries };
 
-export const industries = en;
+export function getIndustriesByLocale(locale: string): Promise<Industry[]> {
+  locale = locale.toLowerCase();
 
-export function getIndustriesByLocale (locale: string) {
-  if (supportedLocales.indexOf(locale.toLowerCase())) {
-    return require(`./locale/${locale.toLowerCase()}`).default;
-  } else {
-    return industries;
+  if (!supportedLocales.includes(locale)) {
+    throw new Error(`Unsupported locale: ${locale} is not supported`);
   }
+
+  return import(`./locales/${locale}.json`).then((result) => result.default);
 }
+
+export { DEFAULT_LOCALE, supportedLocales } from './constants';

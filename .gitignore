@@ -64,3 +64,11 @@ typings/
 /lib
 
 /dist
+
+/cjs
+
+/esm
+
+/iife
+
+/umd

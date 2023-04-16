@@ -5,9 +5,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "build/index",
-  "typings": "lib/index",
-  "module": "build/esm/index",
+  "main": "cjs/index",
+  "typings": "esm/index",
+  "module": "esm/index",
   "author": "Harrison Ifeanyichukwu <harrisonifeanyichukwu@gmail.com> (https://github.com/teclone)",
   "license": "MIT",
   "repository": {
@@ -18,37 +18,31 @@
     "commit": "git-cz",
     "generateLocales": "node ./scripts/generateLocales",
     "test": "yarn generateLocales && BABEL_ENV=test jest -i --detectOpenHandles --forceExit",
-    "watch-test": "BABEL_ENV=test jest --watch -i --detectOpenHandles",
     "typings": "tsc --p ./tsconfig.build.json",
-    "build": "yarn generateLocales && rimraf lib && yarn typings --declarationDir ./build && yarn typings --declarationDir ./build/esm && rollup-all",
+    "build": "yarn generateLocales && rollup-all",
     "report-coverage": "jest --coverage --coverageReporters=text-lcov | coveralls",
-    "semantic-release": "semantic-release"
+    "release": "semantic-release"
   },
   "devDependencies": {
-    "@babel/core": "7.4.5",
-    "@babel/node": "7.4.5",
-    "@babel/plugin-proposal-class-properties": "7.4.4",
-    "@babel/plugin-proposal-object-rest-spread": "7.4.4",
-    "@babel/preset-env": "7.4.5",
-    "@babel/preset-typescript": "7.3.3",
-    "@teclone/rollup-all": "1.10.9",
+    "@rollup/plugin-dynamic-import-vars": "^2.0.3",
+    "@teclone/rollup-all": "^1.24.1",
     "@types/jest": "24.0.11",
     "@typescript-eslint/eslint-plugin": "1.6.0",
     "@typescript-eslint/parser": "1.6.0",
     "babel-jest": "24.3.1",
+    "babel-plugin-dynamic-import-node": "^2.3.3",
     "commitizen": "3.1.1",
     "cz-conventional-changelog": "2.1.0",
-    "jest": "24.8.0",
+    "jest": "^29.5.0",
     "nodemon": "1.19.1",
-    "rimraf": "2.6.2",
+    "prettier": "^2.8.7",
     "semantic-release": "^17.0.4",
     "semantic-release-cli": "5.2.1",
-    "typescript": "3.5.2"
+    "typescript": "^5.0.2"
   },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
-  },
-  "dependencies": {}
+  }
 }
