@@ -44,7 +44,9 @@ import english translation industries, which is the default. the rest of the loc
 - cjs import, working in node.js (server side)
 
   ```javascript
-  const industriesInSpanishLocale = require('@teclone/industries/esm/locales/es.json');
+  // require from @teclone/industries/esm/locales/es.json will also work because this is json file
+  const industriesInSpanishLocale = require('@teclone/industries/cjs/locales/es.json');
+
   industriesInSpanishLocale.forEach((industry) => {
     console.log(industry); // {id: number, linkedinId: number, name: string};
   });
