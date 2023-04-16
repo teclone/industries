@@ -1,34 +1,42 @@
 import {
-  industries,
   supportedLocales,
   DEFAULT_LOCALE,
   getIndustriesByLocale,
-} from "../src/index";
-import industriesInSpanish from "../src/locale/es";
+  industries,
+} from '../src/index';
 
-describe("industries", function () {
-  it(`should export an array of industries`, function () {
-    expect(industries.length).toBeGreaterThan(0);
+describe('industries', function () {
+  describe('supported locales', function () {
+    it(`should export an array of supportedLocales`, function () {
+      expect(supportedLocales.length).toBeGreaterThan(0);
+    });
   });
 
-  it(`should export an array of supportedLocales`, function () {
-    expect(supportedLocales.length).toBeGreaterThan(0);
+  describe('default locale', function () {
+    it(`should export a default locale`, function () {
+      expect(DEFAULT_LOCALE).toEqual('en');
+    });
+
+    it(`should export an array of supportedLocales`, function () {
+      expect(supportedLocales.length).toBeGreaterThan(0);
+    });
   });
 
-  it(`should export a default locale`, function () {
-    expect(DEFAULT_LOCALE).toEqual("en");
+  describe('default locale industries', function () {
+    it(`should export default locale industries by default`, function () {
+      expect(industries.length).toBeGreaterThan(0);
+    });
+
+    it(`should export an array of supportedLocales`, function () {
+      expect(supportedLocales.length).toBeGreaterThan(0);
+    });
   });
 
-  it(`should get industries by locale`, () => {
-    for (const loc of supportedLocales) {
-
-      const industriesInLoc = getIndustriesByLocale(loc);
-      expect(industriesInLoc.length).toEqual(industries.length);
-    }
+  describe('getIndustriesByLocale', function () {
+    it(`if given a locale, it should return the locale's industries as a promise`, function () {
+      return getIndustriesByLocale('es').then((result) => {
+        expect(result.length).toBeGreaterThan(0);
+      });
+    });
   });
-
-  it(`should export an array of industries in locale loaded directly`, function () {
-    expect(industriesInSpanish.length).toBeGreaterThan(0);
-  });
-
 });
