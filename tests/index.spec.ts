@@ -3,7 +3,7 @@ import {
   DEFAULT_LOCALE,
   getIndustriesByLocale,
   industries,
-} from '../src/index';
+} from '../src';
 
 describe('industries', function () {
   describe('supported locales', function () {

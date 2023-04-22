@@ -63,14 +63,6 @@ typings/
 
 /lib
 
-/dist
-
-/cjs
-
-/esm
-
-/iife
-
 /umd
 
 # ignore tooling

@@ -77,7 +77,7 @@ console.log(supportedLocales);
 ### Export types
 
 ```javascript
-import { type Industry, industries } from '@teclone/industries/src/types'
+import { type Industry, industries } from '@teclone/industries'
 
 const industriesSamples: Industry[] = industries;
 

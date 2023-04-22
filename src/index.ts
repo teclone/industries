@@ -1,7 +1,14 @@
-import { Industry } from 'types';
 import { supportedLocales } from './constants';
 
 import enIndustries from './locales/en.json';
+
+export type IndustryName = string;
+
+export interface Industry {
+  name: IndustryName;
+  id: number;
+  linkedinId: number;
+}
 
 export { enIndustries as industries };
 
