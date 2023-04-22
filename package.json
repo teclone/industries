@@ -19,7 +19,8 @@
     "generateLocales": "node ./scripts/generateLocales",
     "test": "yarn generateLocales && BABEL_ENV=test jest -i --detectOpenHandles --forceExit",
     "typings": "tsc --p ./tsconfig.build.json",
-    "build": "yarn generateLocales && rollup-all",
+    "clean": "rimraf ./build && rimraf ./esm && rimraf ./iife && rimraf ./umd && rimraf ./cjs",
+    "build": "yarn clean && yarn generateLocales && rollup-all",
     "report-coverage": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "release": "semantic-release"
   },
@@ -36,6 +37,7 @@
     "jest": "^29.5.0",
     "nodemon": "1.19.1",
     "prettier": "^2.8.7",
+    "rimraf": "^5.0.0",
     "semantic-release": "^17.0.4",
     "semantic-release-cli": "5.2.1",
     "typescript": "^5.0.2"
