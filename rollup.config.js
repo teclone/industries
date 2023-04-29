@@ -1,5 +1,5 @@
 const { createConfig } = require('@teclone/rollup-all');
 module.exports = createConfig({
-  formats: ['cjs', 'esm', 'iife', 'umd'],
+  formats: ['cjs', 'es', 'iife', 'umd'],
   envs: ['uni'],
 });
