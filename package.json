@@ -18,9 +18,8 @@
     "commit": "git-cz",
     "generateLocales": "node ./scripts/generateLocales",
     "test": "yarn generateLocales && BABEL_ENV=test jest -i --detectOpenHandles --forceExit",
-    "typings": "tsc --p ./tsconfig.build.json",
     "clean": "rimraf ./build",
-    "build": "yarn clean %% yarn generateLocales && rollup-all",
+    "build": "yarn clean && yarn generateLocales && rollup-all",
     "report-coverage": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "release": "semantic-release"
   },
