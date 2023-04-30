@@ -26,7 +26,7 @@ import english translation industries, which is the default. the rest of the loc
 - cjs import
 
   ```javascript
-  const { industries } = require('@teclone/industires');
+  const { industries } = require('@teclone/industries');
   industries.forEach((industry) => {
     console.log(industry); // {id: number, linkedinId: number, name: string};
   });
@@ -72,6 +72,18 @@ getIndustriesByLocale(locale).then((industries) => {
 import { supportedLocales } from '@teclone/industries';
 
 console.log(supportedLocales);
+```
+
+### Export types
+
+```javascript
+import { type Industry, industries } from '@teclone/industries'
+
+const industriesSamples: Industry[] = industries;
+
+industriesSamples.forEach((industry) => {
+  console.log(industry); // {id: number, linkedinId: number, name: string};
+});
 ```
 
 ### Need to support more locales?
