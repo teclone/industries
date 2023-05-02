@@ -5,9 +5,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "cjs/index",
-  "typings": "esm/index",
-  "module": "esm/index",
+  "types": "build/cjs/index.d.ts",
+  "main": "build/cjs/index",
+  "module": "build/es/index",
   "author": "Harrison Ifeanyichukwu <harrisonifeanyichukwu@gmail.com> (https://github.com/teclone)",
   "license": "MIT",
   "repository": {
@@ -45,5 +45,10 @@
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
-  }
+  },
+  "files": [
+    "build/",
+    "LICENSE",
+    "README.md"
+  ]
 }

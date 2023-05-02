@@ -35,7 +35,7 @@ import english translation industries, which is the default. the rest of the loc
 - esm module import, direct locale specific import
 
   ```javascript
-  import industriesInSpanishLocale from '@teclone/industries/esm/locales/es.json';
+  import industriesInSpanishLocale from '@teclone/industries/build/es/locales/es.json';
   industriesInSpanishLocale.forEach((industry) => {
     console.log(industry); // {id: number, linkedinId: number, name: string};
   });
@@ -45,7 +45,7 @@ import english translation industries, which is the default. the rest of the loc
 
   ```javascript
   // require from @teclone/industries/esm/locales/es.json will also work because this is json file
-  const industriesInSpanishLocale = require('@teclone/industries/cjs/locales/es.json');
+  const industriesInSpanishLocale = require('@teclone/industries/build/cjs/locales/es.json');
 
   industriesInSpanishLocale.forEach((industry) => {
     console.log(industry); // {id: number, linkedinId: number, name: string};
